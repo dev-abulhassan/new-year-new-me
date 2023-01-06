@@ -104,7 +104,18 @@ header {
    list-style: none;
    color: #444343
 }
-
+.list{
+   display: flex;
+   align-items: center;
+}
+.list img{
+   width: 20px;
+   height: 20px;
+   margin-right: 10px;
+}
+.list-description{
+   margin: 9px 0px;
+}
 /* my plan style */
 .plans-container {
    margin-top: 130px;
@@ -263,4 +274,10 @@ header {
    border-radius: 5px;
    font-family: 'Josefin Sans', sans-serif;
    font-size: 18px;
+   cursor: pointer;
+}
+.footer-subscribe button:hover{
+   background-color: #fff;
+   color: #005FAC;
+   transition: .5s;
 }
