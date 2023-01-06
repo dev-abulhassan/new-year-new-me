@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600&family=Mulish:wght@200;300;400;500;600&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+}
+
+header {
+   background-image: url(/images/banner/banner.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+.banner-container {
+   display: flex;
+   justify-content: end;
+   align-items: center;
+   max-width: 1140px;
+   margin: 0 auto;
+   height: 100%;
+
+}
+
+.banner-info {
+   text-align: right;
+   width: 50%;
+}
+
+.banner-info h2 {
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 76px;
+   color: #fff;
+   text-align: right;
+}
+
+.banner-info p {
+   font-family: 'Mulish', sans-serif;
+   font-size: 16px;
+   line-height: 26px;
+   color: #fff;
+   margin: 20px 0;
+}
+
+.banner-info button {
+   color: #005FAC;
+   background-color: #fff;
+   padding: 20px 35px;
+   border: none;
+   border-radius: 5px;
+   font-size: 18px;
+   border: 2px solid #005FAC;
+   font-family: 'Josefin Sans', sans-serif;
+   cursor: pointer;
+}
+
+.banner-info button:hover {
+   background: #005FAC;
+   color: #fff;
+   transition: .5s;
+   border: 2px solid #fff;
+}
+
+/* about style */
+.about-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 1140px;
+   margin: 0 auto;
+   gap: 90px;
+   height: 100vh;
+   padding-top: 130px;
+}
+
+.person-img img {
+   width: 570px;
+}
+
+.person-info h2 {
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 47px;
+   color: #151414;
+}
+
+.person-info p {
+   font-family: 'Mulish', sans-serif;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #444343;
+   margin: 20px 0;
+}
+
+.person-info li {
+   font-family: 'Mulish', sans-serif;
+   font-size: 16px;
+   line-height: 26px;
+   list-style: none;
+   color: #444343
+}
+
+/* my plan style */
+.plans-container {
+   margin-top: 130px;
+   margin-bottom: 130px;
+}
+
+.plans-container h2 {
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 40px;
+   line-height: 47px;
+   color: #151414;
+   margin-bottom: 50px;
+
+}
+
+.plan-content {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 1140px;
+   margin: 0 auto;
+   text-align: center;
+}
+
+.plan-img img {
+   width: 80px;
+   height: 70px;
+}
+
+.plan-description h3 {
+   font-family: 'Josefin Sans', sans-serif;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 35px;
+   text-align: center;
+   color: #151414;
+}
+
+.plan-description p {
+   font-family: 'Mulish', sans-serif;
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 29px;
+   text-align: center;
+   color: #737272;
+}
+
+/* futures style */
+.futures-container {
+   max-width: 1140px;
+   margin: 0 auto;
+
+}
+
+.futures {
+   background-image: url(/images/gradient.png), url(/images/watch.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 50vh;
+   position: relative;
+   margin-bottom: 130px;
+   border-radius: 5px;
+}
+
+.futures h2 {
+   position: absolute;
+   font-family: 'Josefin Sans', sans-serif;
+   top: 35%;
+   left: 64px;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 47px;
+   color: #fff;
+}
+
+.futures button {
+   position: absolute;
+   top: 60%;
+   left: 64px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 18px;
+   padding: 20px 35px;
+   color: #005FAC;
+   border: none;
+   border-radius: 5px;
+}
+
+/* footer style */
+.footer-container {
+   background-color: #151414;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.footer-content {
+   display: flex;
+   justify-content: space-between;
+   gap: 331px;
+   max-width: 1140px;
+   margin: 0 auto;
+   padding-top: 130px;
+   padding-bottom: 130px;
+}
+
+.futures-info {
+   margin-bottom: 32px;
+   width: 485px;
+
+}
+
+.futures-info h2 {
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 53px;
+   color: #F8F8F8;
+   margin-bottom: 16px;
+}
+
+.futures-info p {
+   font-family: 'Mulish', sans-serif;
+   font-size: 18px;
+   line-height: 26px;
+   color: #FFFFFF;
+}
+
+.contact {
+   margin-top: 24px;
+}
+
+.futures-img img {
+   margin-right: 18px;
+}
+
+.footer-subscribe h2 {
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 53px;
+   color: #F8F8F8;
+   margin-bottom: 31px;
+}
+
+.footer-subscribe input {
+   background: #151414;
+   padding: 20px 35px;
+   border: 2px solid #fff;
+   border-radius: 5px;
+   font-family: 'Mulish', sans-serif;
+   font-size: 18px;
+   margin-bottom: 16px;
+}
+.footer-subscribe button{
+   background-color: #005FAC;
+   color: #fff;
+   padding: 20px 35px;
+   border: none;
+   border-radius: 5px;
+   font-family: 'Josefin Sans', sans-serif;
+   font-size: 18px;
+}
